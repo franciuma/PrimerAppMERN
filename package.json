@@ -1,0 +1,25 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "Primera app con el Stack MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciuma/PrimerAppMERN.git"
+  },
+  "keywords": [
+    "aplicacion",
+    "web",
+    "mern",
+    "nodejs"
+  ],
+  "author": "Francisco López Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciuma/PrimerAppMERN/issues"
+  },
+  "homepage": "https://github.com/franciuma/PrimerAppMERN#readme"
+}
