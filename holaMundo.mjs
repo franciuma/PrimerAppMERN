@@ -1,5 +1,5 @@
 import http from 'node:http'
-import { charizard } from './pokemon/charizard.mjs'
+const charizard = require('./pokemon/charizard.js')
 
 const server = http.createServer((req, res) => {
   const { method, url } = req
