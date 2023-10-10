@@ -1,0 +1,29 @@
+### Para obtener información de un pokemón
+GET http://localhost:3000/pokemon/charizard
+
+### Para crear un pokemón
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+    "name": "charizard",
+    "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "fire",
+        "url": "https://pokeapi.co/api/v2/type/10/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "flying",
+        "url": "https://pokeapi.co/api/v2/type/3/"
+      }
+    }
+  ],
+    "moves": [
+        "mega-punch"
+    ]
+}
